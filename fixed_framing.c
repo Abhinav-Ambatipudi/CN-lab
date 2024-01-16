@@ -12,7 +12,7 @@ void main()
     {
         if(count == size)
         {
-            printf("\nMessage =");
+            printf("\nMessage = ");
             count = 0;
         }
         printf("%c",msg[i]);
