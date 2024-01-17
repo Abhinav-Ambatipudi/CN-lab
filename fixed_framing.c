@@ -2,7 +2,7 @@
 void main()
 {
     char msg[100];
-    int i , j , size , count = 0;
+    int i , size , count = 0;
     printf("Enter the Message : ");
     scanf("%s",msg);
     printf("Enter the Frame Size : ");
