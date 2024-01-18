@@ -29,7 +29,7 @@ void rec(int a[10][10], int n, int s, int e, int sum)
 
 int main()
 {
-    int a[10][10], i, j, s, e, n, sum = 0;
+    int a[10][10], i, j, s, e, n, sum = 0, z;
     printf("enter the no of nodes:");
     scanf("%d", &n);
     printf("enter the values:");

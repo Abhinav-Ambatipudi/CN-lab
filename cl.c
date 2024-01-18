@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 char *ip_classless(char *ip_address) {
-int i, j, k;
+int i, j, k , m;
 int octets[4];
 char *mask = (char *) malloc(sizeof(char) * 16);
 int bits = 0;
