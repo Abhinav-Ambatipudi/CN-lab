@@ -8,7 +8,7 @@ void main()
     scanf("%d",&no_of_routers);
     for(i = 1 ; i  <= no_of_routers ; i++)
     {
-        printf("\n\nEnter SOURCE , DESTINATION & WEIGHT of Router %d : ",i);
+        printf("\n\neEnter DESTINATION & WEIGHT of Router %d : ",i);
         scanf("%d%d",&destination[i], &weight[i]);
     }
     printf("\n\nEnter the Starting Router : ");
