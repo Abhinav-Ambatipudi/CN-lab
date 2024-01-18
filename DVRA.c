@@ -1,18 +1,6 @@
 #include<stdio.h>
-int source[10], destination[10], weight[10] , i, j, sum, no_of_routers, start_router, distance_matrix[10];
+int destination[10], weight[10] , i, j, sum, no_of_routers, start_router, distance_matrix[10];
 
-int min_weight(int a)
-{
-    int min;
-    for(int i = 1 ; i <= no_of_routers ; i++)
-    {
-        if(source[i] == a && weight[i] <= min)
-        {
-            min = weight[i];
-        }
-    }
-    return min;
-}
 void main()
 {
     //Taking the Input Data
@@ -20,8 +8,8 @@ void main()
     scanf("%d",&no_of_routers);
     for(i = 1 ; i  <= no_of_routers ; i++)
     {
-        printf("\n\nEnter SOURCE , DESTINATION & WEIGHT : ");
-        scanf("%d%d%d", &source[i], &destination[i], &weight[i]);
+        printf("\n\nEnter SOURCE , DESTINATION & WEIGHT of Router %d : ",i);
+        scanf("%d%d",&destination[i], &weight[i]);
     }
     printf("\n\nEnter the Starting Router : ");
     scanf("%d",&start_router);
